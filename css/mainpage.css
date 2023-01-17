@@ -1,0 +1,81 @@
+.container{
+    background: var(--c11);
+    display: grid;
+}
+
+#head{
+    padding: 40px;
+    display: block;
+}
+
+.navig{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    justify-items: start;
+}
+nav a{
+    color: var(--c1);
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover{
+    color: var(--p1);
+}
+.bicicletas h2{
+    line-height: 1.2;
+}
+.bicicletas{
+    color: var(--c1);
+    max-width: 120rem;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bicicletas p {
+    color: var(--c3)
+}
+
+.bicicletas span{
+    color: var(--p1);
+}
+
+.bicicletas-descri{
+    margin-top: 12rem;
+    margin-right: 6rem;
+    margin-bottom: 6rem;
+    position:relative;
+}
+
+.detalhe{
+    position: absolute;
+    left: -30rem;
+    bottom: -5rem;
+}
+
+.bicicletas a{
+    color: var(--c12);
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: var(--p1);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bicicletas a:hover{
+    color: var(--c2);
+    background-color: var(--p4);
+}
+
+.bicicleta-img img{
+    max-width: 95%;
+    height: 120%;
+    display: block;
+    object-fit: cover;
+    object-position: center right ;
+    border-radius: 4px;
+}
